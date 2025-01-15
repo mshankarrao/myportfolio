@@ -76,19 +76,19 @@ export const DATA = {
       start: "AUG 2024",
       end: "Present",
       description:
-        "Trainer and coach delivering the latest AI and Blockchain technology training. Organized practical, hands-on training with an emphasis on effective knowledge transfer. Designed a practical-oriented syllabus focusing on in-person and hands-on learning experiences.",
+        "Trainer and coach delivering and organizing the latest technology training. Organized AI and Blockchain-based training at GMRIT College. Designed practical-oriented training syllabus focusing on hands-on learning experiences. Delivered courses with the intent to impart effective, practical knowledge to students through in-person training and workshops.",
     },
     {
       company: "Ford Motor Company",
       href: "",
       badges: [],
       location: "",
-      title: "Open-Source Contributor",
+      title: "Technical Lead",
       logoUrl: "",
       start: "MAY 2021",
       end: "AUG 2024",
       description:
-        "Decision maker and delivery lead for multiple services and products. Mentored team members on new technologies, designed CI/CD pipelines, established Infrastructure as Code using Terraform, developed Smart Contracts with Solidity, and built React-based tools for service metrics dashboard reviews.",
+        "Decision maker and delivery lead for multiple services and products. Mentored and coached team members on emerging technologies. Designed and implemented CI/CD pipelines for the organization. Established Infrastructure as Code using Terraform. Played a key role in developing the blockchain department by creating Smart Contracts using Solidity. Built a React-based dashboard tool for reviewing service metrics.",
     },
     {
       company: "Imbue Network (Polkadot)",
@@ -100,7 +100,7 @@ export const DATA = {
       start: "JAN 2021",
       end: "Present",
       description:
-        "Main contributor to the Imbue Network. Designed and developed modular pallets using FRAME from Substrate. Created a frontend with React and Polkadot API. Automated builds and testing with GitHub Actions, added Telegram integration for commits, and implemented benchmarking for pallet weights.",
+        "Contributed as a core team member to the Imbue Network. Designed and developed modular pallets using FRAME from Substrate. Built the frontend using React and Polkadot API. Automated builds and testing pipelines using GitHub Actions. Integrated GitHub commits with Telegram for notifications via Telegraf. Configured end-to-end unit and integration tests for pallets. Conducted benchmarking to determine pallet weights.",
     },
     {
       company: "Kylin (Polkadot)",
@@ -112,7 +112,7 @@ export const DATA = {
       start: "JUN 2019",
       end: "JAN 2021",
       description:
-        "Contributed to modular pallet design using FRAME from Substrate. Developed APIs for a data warehouse and off-chain worker functionality for the oracle system. Configured unit and integration testing for pallets, integrated GitHub with Discord for deployment notifications, and performed benchmarking.",
+        "Contributed to modular pallet design using FRAME from Substrate. Developed APIs for a data warehouse and implemented off-chain worker functionality for the oracle system. Created unit and integration tests for pallets. Integrated GitHub with Discord for deployment notifications. Conducted benchmarking for pallet weights.",
     },
     {
       company: "Advaita Corp",
@@ -124,7 +124,7 @@ export const DATA = {
       start: "JUN 2020",
       end: "MAY 2021",
       description:
-        "Cloud architect responsible for designing and implementing applications. Built dApps using ReactJS, Web3.js, Ether.js, and Solidity for Smart Contracts. Worked on multiple POCs with Rust and developed full-stack applications with Angular and Spring Boot.",
+        "Cloud architect responsible for designing and implementing applications.\n\n Built decentralized applications (dApps) using ReactJS, Web3.js, and Ether.js. Developed Smart Contracts with Solidity. Created several proofs of concept (POCs) using Rust. Also worked as a Full Stack Engineer with Angular and Spring Boot technologies.",
     },
     {
       company: "Altimetrik Corp",
@@ -136,7 +136,19 @@ export const DATA = {
       start: "JUN 2017",
       end: "JUN 2020",
       description:
-        "Redesigned applications to follow the twelve-factor methodology. Built cloud-native applications with ReactJS and NodeJS. Led the insourcing of multiple microservices, saving costs, and modernized architecture with improved technologies to enhance performance.",
+        "Redesigned and modernized applications to follow the twelve-factor app methodology. Built and owned several cloud-native applications using ReactJS and NodeJS. Led the insourcing of multiple microservices, saving millions in costs. Upgraded application architectures with the latest technologies, enhancing performance and efficiency.",
+    },
+    {
+      company: "Answers Corp",
+      href: "",
+      badges: [],
+      location: "",
+      title: "Software Engineer II",
+      logoUrl: "",
+      start: "JUN 2016",
+      end: "MAY 2017",
+      description:
+        "Migrated monolith applications to lightweight, decoupled microservices. Owned and managed several microservices post-migration. Designed and developed a front-end UI testing tool to simplify survey application testing for QA teams. Containerized Spring Boot apps for deployment. Collaborated closely with customers during requirement refinement workshops.",
     },
     {
       company: "Tata Consultancy Services",
@@ -148,7 +160,7 @@ export const DATA = {
       start: "JUN 2012",
       end: "JAN 2015",
       description:
-        "Module lead throughout the SDLC. Introduced innovative methodologies, created the first CI/CD pipeline for the team using Jenkins, and received awards for exceptional performance and leadership.",
+        "Served as a module lead for core applications throughout the SDLC. Introduced innovative techniques to improve legacy methodologies. Created the first CI/CD pipeline for the team using Jenkins. Received the Best Employee Award for exceptional work and a Leadership Award for efficient project management.",
     },
   ],
   education: [
@@ -191,6 +203,59 @@ export const DATA = {
       technologies: ["Solidity", "Smart Contracts", "Web3"],
       links: [],
       image: "",
+      video: "",
+    },
+    {
+      title: "VerifEd",
+      href: "https://tal3i-kyaaa-aaaag-alfrq-cai.icp0.io/",
+      dates: "Jun 2024 - Jul 2024",
+      active: true,
+      description:
+        "Built a decentralized educational and certification platform with AI-powered proctoring to ensure tamper-proof certification issuance stored on the blockchain.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "ICP Network",
+        "Motoko",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Socket Io",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tal3i-kyaaa-aaaag-alfrq-cai.icp0.io/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/verifed.gif",
+      video: "",
+    },
+    {
+      title: "LunaCred",
+      href: "https://lunacred.vercel.app/",
+      dates: "Sep 2024 - Nov 2024",
+      active: true,
+      description:
+        "Developed a Referral-Based Credibility Staking Protocol aimed at incentivizing honest referrals with dynamic rewards or penalties.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "MongoDB",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Solidity",
+        "Moonbeam Network",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lunacred.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/lunacred.png",
       video: "",
     },
   ],

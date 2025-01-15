@@ -1,3 +1,4 @@
+"use client";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -8,28 +9,54 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { motion } from "framer-motion";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
-            </div>
+    <main className="flex flex-col min-h-[100dvh] space-y-5">
+      <section className="flex items-center justify-center w-full min-h-screen ">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex flex-col space-y-6">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="flex flex-col space-y-2"
+            >
+              <h1 className="text-5xl sm:text-7xl xl:text-9xl font-bold tracking-tighter">
+                Hi,
+              </h1>
+              <h1 className="text-5xl sm:text-6xl xl:text-8xl gap-2 flex font-bold tracking-tighter">
+                I'm{" "}
+                <motion.span
+                  className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400"
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{
+                    duration: 0.8,
+                    delay: 0.3,
+                    ease: "easeOut",
+                  }}
+                >
+                  {DATA.name.split(" ")[0]}
+                </motion.span>
+                👋
+              </h1>
+            </motion.div>
+
+            <motion.p
+              className="max-w-4xl text-xl sm:text-2xl xl:text-3xl text-gray-600 dark:text-gray-300"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.6,
+                delay: 0.8,
+              }}
+            >
+              {DATA.description}
+            </motion.p>
           </div>
         </div>
       </section>
