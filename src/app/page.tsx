@@ -29,7 +29,7 @@ export default function Page() {
                 Hi,
               </h1>
               <h1 className="text-5xl sm:text-6xl xl:text-8xl gap-2 flex font-bold tracking-tighter">
-                I'm{" "}
+                I{`'`}m{" "}
                 <motion.span
                   className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400"
                   initial={{ opacity: 0, scale: 0.95 }}
