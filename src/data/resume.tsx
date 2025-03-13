@@ -280,9 +280,10 @@ export const DATA = {
       winner: "1st Place",
       location: "online",
       image: "",
+      video: "https://youtu.be/nCyvFkaslRU",
       description:
         "Developed grow protocol, a decentralized lending platform using blockchain technology. where user can lend and borrow money by staking their crypto assets as collateral.",
-      links: ["https://youtu.be/nCyvFkaslRU"],
+      links: [],
     },
     {
       title: "EasyA Hackathon",
@@ -292,7 +293,7 @@ export const DATA = {
       image:"",
       description:
         "Built a decentralized food waste management system using blockchain technology. The system allows users to donate food to the needy and earn rewards.",
-      links: ["https://youtu.be/nCyvFkaslRU"],
+      links: [],
     },
     {
       title: "OneBlock+ Polkadot Hackathon",
