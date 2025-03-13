@@ -184,18 +184,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "BetStash",
-      href: "",
-      dates: "Jan 2024 – Present",
-      active: true,
-      description:
-        "Developed a live betting platform using blockchain technology to ensure transparency and security. Build on Aptos blockchain. Developed smart contracts using Move and integrated with the frontend using Web3.js.",
-      technologies: ["React.js", "Typescript", "Hardhat", "Ethers.js", "Solidity"],
-      links: [],
-      image: "",
-      video: "",
-    },
-    {
       title: "Kylin Network Contribution",
       href: "",
       dates: "Jun 2019 – Jan 2021",
@@ -210,10 +198,10 @@ export const DATA = {
     {
       title: "NFT Marketplace",
       href: "",
-      dates: "",
+      dates: "Feb 2022 – Apr 2022",
       active: true,
-      description: "Built smart contracts for NFT marketplace using Solidity.",
-      technologies: ["Solidity", "Smart Contracts", "Web3"],
+      description: "Built smart contracts for NFT marketplace using Solidity. Where users can mint, buy, and sell NFTs. The NFT has several features and could act as a subscription pass. It was built for Blu3Dao project. The project is built on Harmony chain. The NFT had custom features for airdropping the early adopters.",
+      technologies: ["Solidity", "Smart Contracts", "Web3", "Ethers.js", "React.js"],
       links: [],
       image: "",
       video: "",
@@ -271,6 +259,18 @@ export const DATA = {
       image: "/lunacred.png",
       video: "",
     },
+    {
+      title: "BetStash",
+      href: "",
+      dates: "Jan 2024 – Present",
+      active: true,
+      description:
+        "Developed a live betting platform using blockchain technology to ensure transparency and security. Build on Aptos blockchain. Developed smart contracts using Move and integrated with the frontend using Web3.js.",
+      technologies: ["React.js", "Typescript", "Hardhat", "Ethers.js", "Solidity"],
+      links: [],
+      image: "",
+      video: "",
+    },
   ],
   // Keeping original hackathon entries as requested
   hackathons: [
@@ -294,11 +294,13 @@ export const DATA = {
       description:
         "Built a decentralized food waste management system using blockchain technology. The system allows users to donate food to the needy and earn rewards.",
       links: [],
+      video:"",
     },
     {
       title: "OneBlock+ Polkadot Hackathon",
       dates: "November 23rd - 25th, 2024",
       location: "Bangkok, thailand",
+      video:"",
       description:
         "Developed a Referral-Based Credibility Staking Protocol aimed at incentivizing honest referrals with dynamic rewards or penalties..",
       image:
@@ -310,6 +312,7 @@ export const DATA = {
       dates: "November 23rd - 25th, 2024",
       winner: "2nd Place",
       location: "online",
+      video:"",
       description: "Developed a decentralised 3d gaming platform .",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMoM2wFiK14OaMiPsC2ygxxDSTB4R6ZgB2FA&s",
