@@ -279,6 +279,7 @@ export const DATA = {
       dates: "November 19rd - December 8th, 2021",
       winner: "1st Place",
       location: "online",
+      image: "",
       description:
         "Developed grow protocol, a decentralized lending platform using blockchain technology. where user can lend and borrow money by staking their crypto assets as collateral.",
       links: ["https://youtu.be/nCyvFkaslRU"],
@@ -288,6 +289,7 @@ export const DATA = {
       dates: "May 2024",
       winner: "1st Place",
       location: "San Francisco, CA",
+      image:"",
       description:
         "Built a decentralized food waste management system using blockchain technology. The system allows users to donate food to the needy and earn rewards.",
       links: ["https://youtu.be/nCyvFkaslRU"],
