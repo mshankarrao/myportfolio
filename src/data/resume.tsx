@@ -13,7 +13,7 @@ export const DATA = {
   location: "Albuquerque, NM",
   locationLink: "https://www.google.com/maps/place/Albuquerque",
   description:
-    "Dynamic and highly skilled Full Stack Cloud DevOps Engineer with 12 years of experience in designing, developing, and deploying scalable, secure, and efficient cloud-based applications.",
+    "Dynamic and highly skilled Full Stack Cloud Engineer with 12 years of experience in designing, developing, and deploying scalable, secure, and efficient cloud-based applications.",
   summary:
     "Expertise in full-stack development, CI/CD pipelines, and cloud infrastructure automation using tools like AWS, Docker, ECS, Cloud Run, Cloud Function, Kafka, Pub Sub and Terraform.",
   avatarUrl: "/me.png",
@@ -22,6 +22,7 @@ export const DATA = {
       "Java",
       "Typescript",
       "Rust",
+      "GO",
       "JavaScript",
       "Solidity",
       "Python",
@@ -29,7 +30,7 @@ export const DATA = {
     ],
     databases: ["PostgreSQL", "MongoDB", "Redis", "Cosmos DB"],
     Cloud: ["AWS", "Azure", "GCP", "Docker", "ECS", "Terraform", "Kafka"],
-    frameworks: ["Substrate", "Angular", "ReactJS", "Bootstrap"],
+    frameworks: ["Spring","Substrate", "Angular", "NextJS", "Bootstrap"],
     technologies: ["Hardhat", "Truffle", "Ganache", "Foundry", "CI/CD"],
   },
   navbar: [
@@ -166,7 +167,7 @@ export const DATA = {
   education: [
     {
       school: "University of New Mexico",
-      href: "",
+      href: "https://www.unm.edu/",
       degree: "M.S. in Computer Science",
       logoUrl: "",
       start: "2015",
@@ -174,7 +175,7 @@ export const DATA = {
     },
     {
       school: "GITAM University",
-      href: "",
+      href: "https://www.gitam.edu/",
       degree: "Bachelors in Information Technology",
       logoUrl: "",
       start: "2008",
@@ -182,6 +183,18 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "BetStash",
+      href: "",
+      dates: "Jan 2024 – Present",
+      active: true,
+      description:
+        "Developed a live betting platform using blockchain technology to ensure transparency and security. Build on Aptos blockchain. Developed smart contracts using Move and integrated with the frontend using Web3.js.",
+      technologies: ["React.js", "Typescript", "Hardhat", "Ethers.js", "Solidity"],
+      links: [],
+      image: "",
+      video: "",
+    },
     {
       title: "Kylin Network Contribution",
       href: "",
@@ -262,6 +275,24 @@ export const DATA = {
   // Keeping original hackathon entries as requested
   hackathons: [
     {
+      title: "Bitcoin Bankathon",
+      dates: "November 19rd - December 8th, 2021",
+      winner: "1st Place",
+      location: "online",
+      description:
+        "Developed grow protocol, a decentralized lending platform using blockchain technology. where user can lend and borrow money by staking their crypto assets as collateral.",
+      links: ["https://youtu.be/nCyvFkaslRU"],
+    },
+    {
+      title: "EasyA Hackathon",
+      dates: "May 2024",
+      winner: "1st Place",
+      location: "San Francisco, CA",
+      description:
+        "Built a decentralized food waste management system using blockchain technology. The system allows users to donate food to the needy and earn rewards.",
+      links: ["https://youtu.be/nCyvFkaslRU"],
+    },
+    {
       title: "OneBlock+ Polkadot Hackathon",
       dates: "November 23rd - 25th, 2024",
       location: "Bangkok, thailand",
@@ -274,6 +305,7 @@ export const DATA = {
     {
       title: "Dymension Rollapp Draft Hackathon",
       dates: "November 23rd - 25th, 2024",
+      winner: "2nd Place",
       location: "online",
       description: "Developed a decentralised 3d gaming platform .",
       image:
